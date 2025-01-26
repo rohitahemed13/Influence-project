@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* *{
+    margin: 0;
+    padding: 0;
+  } */
+   
+ 
+  .header{
+    margin: 0 165px;
+  }
+.dark{
+    color: rgb(58, 58, 58);
+}
+.dark-1{
+   color: 
+   rgb(58, 58, 58);
+}
+.btn-primary{
+    background-color: rgb(224, 44, 109);
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+}
+
+ /* navbar style */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.navbar a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:  rgb(58, 58, 58);;
+
+}
+/* share style */
+.display-flex{
+    display: flex;
+}
+.nav-link{
+    display: flex;
+    /* margin-right: 30px; */
+    gap: 30px;
+
+}
+.nav-item{
+   list-style: none;
+}
+ .pr-img{
+    max-width: 475px;
+    
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   
+ }
+ .pr-img img{
+    width: 100%;
+    padding: 16px;
+ }
+ /* banner style */
+ .banner-content{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+ }
+ .section-container{
+    display: flex;
+    margin-top: 30px;
+    
+    
+    justify-content: space-between;
+    align-items: center;
+ }
+
+  
+ title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.discription{
+    font-size: 16px;
+    font-weight: 600;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    max-width:1110px ;
+    justify-items: center;
+   
+   margin: 0 auto;
+   margin-top: 50px;
+ padding: 36px 61px;
+ background-color: ;
+
+}
+
+
+/* responsive media quiery */
+@media screen and (max-width:576px) {
+       .banner-content{
+        flex-direction: column-reverse;
+       
+       }
+    .title-1{
+        justify-content: center;
+    }
+.navbar, .nav-link{
+   justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-link{
+    margin-right: 50px;
+}
+.logos{
+     
+    grid-template-columns: 1fr;
+    /* justify-items: center; */
+    justify-content: center;
+    gap: 50px;
+    margin-right: 50px;
+}
+}
