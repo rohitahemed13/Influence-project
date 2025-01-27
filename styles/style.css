@@ -175,7 +175,7 @@ title {
 /* footer style */
 footer {
     width: 100%;
-    height: 20vh;
+    height: 100%;
     background-color: rgb(13, 9, 33);
     color: white;
     display: flex;
@@ -183,6 +183,7 @@ footer {
     align-items: center;
     text-align: center;
     margin-top: 50px;
+    padding-bottom: 10px;
 
 
 }
@@ -206,11 +207,12 @@ footer {
     .skill-container {
         align-items: center;
         text-align: justify;
+         padding: 0 10px;
     }
 
     footer {
         width: 100%;
-
+        height: 100%;
 
     }
 
@@ -241,10 +243,13 @@ footer {
 
     .skill-container {
         flex-direction: column;
+        text-align: center;
+        padding: 0 10px;
     }
 
-    .footer {
+    footer {
         width: 100%;
+        height: 100%;
+
     }
 }
-
